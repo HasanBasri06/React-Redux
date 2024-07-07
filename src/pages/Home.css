@@ -1,0 +1,23 @@
+button {
+    all: unset;
+    text-align: center;
+    width: 125px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid gainsboro;
+    color: gray;
+    border-radius: 5px;
+}
+
+#counterSlice {
+    display: flex;
+    align-items: center;
+}
+
+#count {
+    width: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
