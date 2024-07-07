@@ -8,7 +8,7 @@ import './Home.css'
 
 function Home() {
     useDynamicTitle("Anasayfa")
-
+    
     const increment = () => store.dispatch(incremented())
     const decrement = () => store.dispatch(decremented())
     let value = useSelector(state => state.value)

@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import LoginForm from '../../components/LoginForm'
 import Layout from '../../partials/Layout'
 
 function Login() {
+  const [count, setCount] = useState(0)
   return (
     <Layout>
-        layout component is works
+        <LoginForm></LoginForm>
+
+        <button onClick={() => setCount(count + 1)}>Increment {count}</button>
     </Layout>
   )
 }
